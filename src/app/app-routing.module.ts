@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { DashboardComponent } from './dashboard/dashboard.component';
+import { DeliveryComponent } from './delivery/delivery.component';
 import { DisconnectComponent } from './disconnect/disconnect.component';
 import { ToysFactoryComponent } from './toys-factory/toys-factory.component';
 import { LegalComponent } from './legal/legal.component';
@@ -8,7 +8,7 @@ import { LegalComponent } from './legal/legal.component';
 const routes: Routes = [
   {
     path: 'delivery',
-    component: DashboardComponent
+    component: DeliveryComponent
   },
   {
     path: 'legal',

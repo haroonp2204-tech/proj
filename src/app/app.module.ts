@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
+import { DeliveryComponent } from './delivery/delivery.component';
 import { ToysFactoryComponent } from './toys-factory/toys-factory.component';
 import { LegalComponent } from './legal/legal.component';
 import { DisconnectComponent } from './disconnect/disconnect.component';
@@ -13,7 +13,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent,
+    DeliveryComponent,
     ToysFactoryComponent,
     LegalComponent,
     DisconnectComponent,

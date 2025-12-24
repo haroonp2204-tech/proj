@@ -4,12 +4,12 @@ import { DataService } from '../shared/services/data.service';
 
 
 @Component({
-  selector: 'app-dashboard',
-  templateUrl: './dashboard.component.html',
-  styleUrls: ['./dashboard.component.scss']
+  selector: 'app-delivery',
+  templateUrl: './delivery.component.html',
+  styleUrls: ['./delivery.component.scss']
 })
 
-export class DashboardComponent implements OnInit {
+export class DeliveryComponent implements OnInit {
   pageSize = 7;
   currentPage = 1;
   data: Person[] = [];
