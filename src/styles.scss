@@ -1,1 +1,136 @@
-/* You can add global styles to this file, and also import other style files */
+@import "bootstrap/scss/bootstrap";
+
+
+
+.layout {
+  display: flex;
+  height: 100vh;
+}
+
+.custom-table {
+    td, th {
+        background-color: transparent !important;
+        color: #4b4949;
+    }
+}
+
+.santa-img.mb-3 {
+    width: 100px;
+}
+
+.highlight-row {
+    background-color: #ffe5e5 !important;
+  }
+
+.sidebar {
+  width: 200px;
+  background: #1d601f;
+  color: white;
+  padding: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.page-link {
+  font-size: 16px;
+}
+
+.sidebar nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 0.75rem 0;
+}
+
+.adjust-top-space {
+    margin-top: 110px;
+}
+
+.flip-horizontal {
+    transform: scaleX(-1);
+    width: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+}
+
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.topbar {
+  display: none;
+  background: #1d601f;
+  color: white;
+  padding: 0.75rem;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+
+.act {
+    background-color: #d4f1d230;
+    border-left: 4px solid #fff;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.menu-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.active > .page-link {
+    background-color: #dc3512;
+    border-color: #dc3512;
+}
+
+.page-link {
+    color: #1d601f;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+
+  .santa-img, .santa-text, .flip-horizontal {
+    display: none;
+  } 
+
+  .adjust-top-space {
+    margin-top: 100px
+  } 
+
+  .del-header {
+    margin-top: 90px;
+  }
+
+  .sidebar {
+    position: fixed;
+    height: calc(100vh - 62px);
+    left: 0;
+    top: 62px;
+    transform: translateX(-100%);
+    z-index: 1000;
+  }
+
+  .sidebar.open {
+    transform: translateX(0);
+  }
+
+  .highlight-row {
+    background-color: transparent !important;
+  }
+
+  .topbar {
+    display: flex;
+  }
+}

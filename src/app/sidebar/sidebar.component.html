@@ -1,0 +1,23 @@
+
+<!-- Sidebar definition starts -->
+<div class="d-flex flex-column align-items-center">
+    <div class="santa-img mb-3">
+    <img class="w-100" src="assets/santa.png">
+    </div>
+    <h3 class="mb-4 santa-text text-danger"><i>Santa Inc</i></h3>
+</div>
+<nav>
+    <span (click)="navigate('toys-factory')" [ngClass]="activeLink == 'toys-factory' ? 'act' : ''"
+    class="d-flex align-items-center cursor-pointer"><i class="fa-solid fa-user w-25 d-block"></i><a>Toys
+        Factory</a></span>
+    <span (click)="navigate('delivery')" [ngClass]="activeLink == 'delivery'? 'act' : ''"
+    class="d-flex align-items-center cursor-pointer"><i
+        class="fa-solid fa-basket-shopping  w-25 d-block"></i><a>Delivery</a></span>
+    <span (click)="navigate('legal')" [ngClass]="activeLink == 'legal'? 'act' : ''"
+    class="d-flex align-items-center cursor-pointer"><i
+        class="fa-solid fa-scale-balanced w-25 d-block"></i><a>Legal</a></span>
+    <span (click)="navigate('disconnect')" [ngClass]="activeLink == 'disconnect' ? 'act' : ''"
+    class="d-flex align-items-center cursor-pointer"><i
+        class="fa-solid fa-plug-circle-minus w-25 d-block"></i><a>Disconnect</a></span>
+</nav>
+<!-- Sidebar definition ends -->

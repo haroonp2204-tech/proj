@@ -1,0 +1,205 @@
+[
+  {
+    "firstName": "William",
+    "lastName": "Shakespeare",
+    "address": "England",
+    "wishes": "Book",
+    "highlight": true
+  },
+  {
+    "firstName": "JRR",
+    "lastName": "Tolkien",
+    "address": "England",
+    "wishes": "Pen",
+    "highlight": false
+  },
+  {
+    "firstName": "Charles",
+    "lastName": "Dickens",
+    "address": "England",
+    "wishes": "Teddy Bear",
+    "highlight": true
+  },
+  {
+    "firstName": "Agatha",
+    "lastName": "Christie",
+    "address": "England",
+    "wishes": "Knife",
+    "highlight": false
+  },
+  {
+    "firstName": "George",
+    "lastName": "Orwell",
+    "address": "England",
+    "wishes": "Notebook",
+    "highlight": false
+  },
+  {
+    "firstName": "Jane",
+    "lastName": "Austen",
+    "address": "England",
+    "wishes": "Quill",
+    "highlight": true
+  },
+  {
+    "firstName": "Mark",
+    "lastName": "Twain",
+    "address": "USA",
+    "wishes": "Ink",
+    "highlight": false
+  },
+  {
+    "firstName": "Ernest",
+    "lastName": "Hemingway",
+    "address": "USA",
+    "wishes": "Typewriter",
+    "highlight": false
+  },
+  {
+    "firstName": "Virginia",
+    "lastName": "Woolf",
+    "address": "England",
+    "wishes": "Diary",
+    "highlight": true
+  },
+  {
+    "firstName": "F. Scott",
+    "lastName": "Fitzgerald",
+    "address": "USA",
+    "wishes": "Notebook",
+    "highlight": false
+  },
+  {
+    "firstName": "Leo",
+    "lastName": "Tolstoy",
+    "address": "Russia",
+    "wishes": "Manuscript",
+    "highlight": false
+  },
+  {
+    "firstName": "Fyodor",
+    "lastName": "Dostoevsky",
+    "address": "Russia",
+    "wishes": "Lamp",
+    "highlight": true
+  },
+  {
+    "firstName": "Anton",
+    "lastName": "Chekhov",
+    "address": "Russia",
+    "wishes": "Stethoscope",
+    "highlight": false
+  },
+  {
+    "firstName": "Homer",
+    "lastName": "Poet",
+    "address": "Greece",
+    "wishes": "Scroll",
+    "highlight": false
+  },
+  {
+    "firstName": "Dante",
+    "lastName": "Alighieri",
+    "address": "Italy",
+    "wishes": "Parchment",
+    "highlight": true
+  },
+  {
+    "firstName": "Miguel",
+    "lastName": "Cervantes",
+    "address": "Spain",
+    "wishes": "Sword",
+    "highlight": false
+  },
+  {
+    "firstName": "Gabriel",
+    "lastName": "Garcia Marquez",
+    "address": "Colombia",
+    "wishes": "Pen",
+    "highlight": false
+  },
+  {
+    "firstName": "Pablo",
+    "lastName": "Neruda",
+    "address": "Chile",
+    "wishes": "Poetry Book",
+    "highlight": true
+  },
+  {
+    "firstName": "Haruki",
+    "lastName": "Murakami",
+    "address": "Japan",
+    "wishes": "Jazz Vinyl",
+    "highlight": false
+  },
+  {
+    "firstName": "Franz",
+    "lastName": "Kafka",
+    "address": "Czech Republic",
+    "wishes": "Letter",
+    "highlight": false
+  },
+  {
+    "firstName": "Albert",
+    "lastName": "Camus",
+    "address": "France",
+    "wishes": "Notebook",
+    "highlight": true
+  },
+  {
+    "firstName": "Victor",
+    "lastName": "Hugo",
+    "address": "France",
+    "wishes": "Candle",
+    "highlight": false
+  },
+  {
+    "firstName": "Jules",
+    "lastName": "Verne",
+    "address": "France",
+    "wishes": "Compass",
+    "highlight": false
+  },
+  {
+    "firstName": "Oscar",
+    "lastName": "Wilde",
+    "address": "Ireland",
+    "wishes": "Mirror",
+    "highlight": true
+  },
+  {
+    "firstName": "Samuel",
+    "lastName": "Beckett",
+    "address": "Ireland",
+    "wishes": "Chair",
+    "highlight": false
+  },
+  {
+    "firstName": "Rabindranath",
+    "lastName": "Tagore",
+    "address": "India",
+    "wishes": "Harmonium",
+    "highlight": true
+  },
+  {
+    "firstName": "R.K.",
+    "lastName": "Narayan",
+    "address": "India",
+    "wishes": "Notebook",
+    "highlight": false
+  },
+  {
+    "firstName": "Premchand",
+    "lastName": "Author",
+    "address": "India",
+    "wishes": "Manuscript",
+    "highlight": false
+  },
+  {
+    "firstName": "Khaled",
+    "lastName": "Hosseini",
+    "address": "Afghanistan",
+    "wishes": "Story Book",
+    "highlight": true
+  }
+]
